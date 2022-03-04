@@ -25,9 +25,9 @@ ul{
    
     margin: 5px 50px;
 }
-li:nth-child(2n){
-    background-color: blueviolet;
-    display: inline;
+
+li::before{
+    content:"❤️";
 }
 li:hover{
     color:chocolate;
